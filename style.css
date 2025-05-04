@@ -1,0 +1,75 @@
+html,
+body {
+  background-color: #121e2d;
+  font-family: 'Poppins', sans-serif;
+  color: #eaeaea;
+}
+
+.design-section {
+  padding: 50px 0 200px;
+}
+
+.timeline {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+}
+
+.timeline-middle {
+  background-image: linear-gradient(45deg, #00c9ff, #92fe9d);
+
+  width: 3px;
+  height: 100%;
+  position: relative;
+}
+
+.timeline-circle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.circle-week {
+  background-image: linear-gradient(45deg, #00c9ff, #92fe9d);
+}
+
+.timeline-content {
+  background: #1e2b3a;
+  color: #eaeaea;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.timeline-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.timeline-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.check-icon {
+  background: -webkit-linear-gradient(45deg, #00c9ff, #92fe9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading {
+  background: -webkit-linear-gradient(45deg, #00c9ff, #92fe9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
