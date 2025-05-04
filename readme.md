@@ -1,7 +1,7 @@
 # Project Timeline – Taniti Tourism Website
 
 This timeline outlines the 4-week plan for designing and launching the Taniti Tourism website. It includes stages for research, design, testing, and final delivery.
-<img src="./Timeline.png" alt="Taniti Website - timeline Screenshot" />
+<img src="./images/Timeline.pngTimeline.png" alt="Taniti Website - timeline Screenshot" />
 
 ## Timeline Overview
 
